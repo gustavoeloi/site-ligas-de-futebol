@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+
+  background-color: #1277D9;
+  padding: 20px;
+  
+  border-bottom: 1px solid #e4e8f0;
+}
+
+header img {
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+}
+
+/* MAIN */
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 2rem;
+
+  background: #FFFFFF;
+}
+
+.main-title {
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+
+.main-p {
+  border-left: 5px solid #1277D9;
+  padding-left: 10px;
+}
+
+.flex-container {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imgbackground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 400px;
+  transition: 0.4s;
+
+
+
+}
+
+.quarta-imagem, .quinta-imagem, .sexta-imagem {
+  margin-top: 32px;
+}
+
+.primeira-imagem {
+  background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf63e7a2c3291b5de/60da7c1a5543520fcbbe398f/ef9a10e5df993a51664c3cec5ed95015a932e029.jpg?auto=webp&fit=crop&format=jpg&height=800&quality=60&width=1200);
+
+
+  background-position: center;
+  background-size: cover;
+}
+
+.segunda-imagem {
+  background-image: url(https://ogimg.infoglobo.com.br/in/25308208-745-ffc/FT1086A/51726211372_82cb29e4f8_c.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.terceira-imagem {
+  background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/05/GettyImages-1398689718.jpg?w=876&h=484&crop=1);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.quarta-imagem {
+  background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/05/GettyImages-1398689718.jpg?w=876&h=484&crop=1);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.quinta-imagem {
+  background-image: url(https://www.futebolnaveia.com.br/wp-content/uploads/2020/04/2019-PSG-ligue-1.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.sexta-imagem {
+  background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/05/08/16520367282847.jpg);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.img-title {
+  font-size: 1.875rem;
+  text-align: center;
+  color: white;
+
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+
+}
+
+.imgbackground:hover {
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.imgbackground:hover .img-title {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background: #1277D9;
+  color: #FFFFFF;
+  margin-top: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+
